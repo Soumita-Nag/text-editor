@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col">
+            <div class="b1">
+                <span class="f1">Font Size :</span>
+                <input type="number" onchange="fun(this)" class="mar" value="14" min="1" max="100" id="size">
+                <br><br>
+                <button onclick="left()" class="mar"><i class="fa fa-align-left"></i></button>
+                <button onclick="middle()" class="mar"><i class="fa fa-align-center"></i></button>
+                <button onclick="right()" class="mar"><i class="fa fa-align-right"></i></button>
+                </div>
+                <div class="b2">
+                <button class="mar" onclick="bold()" id="b"><b>B</b></button>
+                <button class="mar" onclick="italic()"><i>I</i></button>
+                <button class="mar" onclick="underline()"><u>U</u></button><br><br>
+                <button class="mar" onclick="strike()" id="stk">S</button>
+                <button class="mar" onclick="upper()">A^</button>
+                <button class="mar" onclick="lower()">A <small>v</small></button>
+            </div>
+            <div class="b3">
+                <span class="f1">Font Color :</span><input type="color" name="" class="mar c1" onchange="col(this.value)">
+                <span class="f1">Shadow color :</span><input type="color" name="" class="mar c1" onchange="bg(this.value)">
+            </div>
+            <div class="b4">
+                <button onclick="remove_format()" class="mar trash" id="rem-for"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="25" height="40" viewBox="0 100 640 512">
+                        <path fill="currentColor"
+                            d="M336 416h-11.17l9.26-27.77L267 336.4L240.49 416H208a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm297.82 42.1L377 259.59L426.17 112H544v32a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16H176a16 16 0 0 0-16 16v43.9L45.46 3.38A16 16 0 0 0 23 6.19L3.37 31.46a16 16 0 0 0 2.81 22.45l588.36 454.72a16 16 0 0 0 22.46-2.81l19.64-25.27a16 16 0 0 0-2.82-22.45zM309.91 207.76L224 141.36V112h117.83z" />
+                    </svg></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="mar trash" onclick="text_clear()"><i class="fa fa-trash"></i></button>
+            </div>
+            </span>
+        </div>
+        <div class="col">
+            <textarea name="text" id="text" cols="100" rows="40" placeholder="Insert Text"></textarea>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

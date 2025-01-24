@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("Soft-Aesthetic-HD-Wallpaper-Free-download.jpg") no-repeat;
+    background-size: cover;
+    /* background: rgb(124, 206, 23);
+    background: linear-gradient(NaNdeg, rgba(218, 170, 170, 0) 20%, rgb(201, 65, 65) 30%); */
+}
+.container {
+    width: 880px;
+    height: 650px;
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightseagreen;
+}
+
+.col {
+    width: 100%;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#text {
+    width: 96%;
+    padding: 10px;
+    margin-top: 10px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
+
+.mar {
+    margin: 7px;
+    margin-top: 0;
+    height: 40px;
+    width: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.mar:active{
+    background-color: gray;
+}
+.c1 {
+    position: relative;
+    top: 5px;
+}
+
+#rem-for {
+    position: relative;
+    top: 18px;
+}
+#sel {
+    width: 100px;
+}
+.trash:hover {
+    color: red;
+}
+#size{
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    width: 100px;
+}
+#stk{
+    text-decoration: line-through;
+}
+.f1{
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+.b1{
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    margin-bottom: 10px;
+}
+.b2{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    margin-top: 15px;
+}
+.b3{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 460px;
+    text-align: center;
+}
+.b4{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 55px;
+    left: 490px;
+}
